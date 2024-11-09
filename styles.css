@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+font-family: monospace;
+text-align: center;
+
+}
+h2{
+font-family: monospace;
+}
+h3{
+font-family: monospace;
+}
+
+nav{
+    position:relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    gap: 20px;
+    padding:15px;
+
+}
+
+.nav-link{
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 8px 12px; 
+
+
+
+}
+
+
+p{
+font-family: sans-serif;
+}
+
+
+
+a{
+font-family: sans-serif;
+}
+
+.egypt{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+table{
+    font-family: sans-serif;
+    padding: 20px;
+
+    }
+
+.morroco{
+    background-color:#f4f4f4;
+    margin: 30px;
+    padding: 30px;
+}
+
+.cform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    font-family: sans-serif;
+    margin: 30px;
+    padding: 30px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+
+.cform label,
+.cform input {
+    margin-top: 10px;
+}
+
+.cfom-checkbox{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th{
+    background-color: black;
+    color: white;
+}
+
+th,
+td{    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+footer{
+    padding-left: 10px;
+}
+
+
+
